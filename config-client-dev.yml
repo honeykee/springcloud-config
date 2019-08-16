@@ -1,7 +1,4 @@
-spring :
-  profiles:
-    active: dev
----
+
 server:
   port: 8203
 spring:
@@ -12,17 +9,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka
----
-server:
-  port: 8204
-spring:
-  profiles: test
-  application:
-    name: config-client-test
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:7001/eureka
+
 
 
 
