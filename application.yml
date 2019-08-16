@@ -1,12 +1,11 @@
 
 spring:
   profiles:
-    active:
-      - dev
+    active: dev
 
 ---
 spring:
-  profiles: cloud
+  profiles: test
   application:
     name: abc
 
